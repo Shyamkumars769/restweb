@@ -1,0 +1,147 @@
+<html>
+<head>
+    <style>
+        body 
+        {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: gray;
+        }
+        nav 
+        {
+            background-color: greenyellow;
+            overflow: hidden;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a 
+        {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        nav a:hover 
+        {
+            background-color: greenyellow;
+        }
+        header 
+        {
+            background-color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 
+        {
+            color: greenyellow;
+            margin: 0;
+        }
+        .menu-section 
+        {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .menu-title 
+        {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            color: gray;
+        }
+        .menu-items 
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+        .menu-item 
+        {
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .menu-item:hover 
+        {
+            transform: translateY(-5px);
+        }
+        .menu-item img 
+        {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .menu-item h3 
+        {
+            font-size: 1.2em;
+            color: greenyellow;
+            margin: 10px 0;
+        }
+        .menu-item p 
+        {
+            font-size: 0.9em;
+            color: gray;
+        }
+        .menu-item span 
+        {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: gray;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="restweb.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Administration.html">Administration</a>
+    <a href="Contact Us.html">Contact Us</a>
+</nav>
+
+<header>
+    <h1>Welcome to Our Menu</h1>
+</header>
+
+<div class="menu-section">
+    <h2 class="menu-title">Discover Our Tasty Options</h2>
+    <div class="menu-items">
+        <div class="menu-item">
+            <img src="Burger.png" alt="Classic Burger">
+            <h3>Classic Burger</h3>
+            <p>Juicy beef patty with lettuce, tomatoes, and cheese in a sesame bun.</p>
+            <span>$120</span>
+        </div>
+        <div class="menu-item">
+            <img src="pizza.avif" alt="Margherita Pizza">
+            <h3>Margherita Pizza</h3>
+            <p>Freshly baked pizza with mozzarella, tomatoes, and basil.</p>
+            <span>$220</span>
+        </div>
+        <div class="menu-item">
+            <img src="salad.jpg" alt="Caesar Salad">
+            <h3>Caesar Salad</h3>
+            <p>Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan.</p>
+            <span>$160</span>
+        </div>
+        <div class="menu-item">
+            <img src="Herb-Crusted Salmon.jpg" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Perfectly grilled salmon with steamed veggies and lemon butter sauce.</p>
+            <span>$340</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

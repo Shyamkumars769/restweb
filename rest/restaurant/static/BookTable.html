@@ -1,0 +1,138 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Table</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body 
+        {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: white;
+            color: gray;
+            line-height: 1.6;
+        }
+        nav 
+        {
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0;
+        }
+        nav a 
+        {
+            text-decoration: none;
+            color: white;
+            margin: 0 25px;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover 
+        {
+            color: cyan;
+        }
+        header 
+        {
+            background: cyan;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .booking-section 
+        {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+            margin: -50px auto 50px;
+            padding: 40px;
+        }
+        .booking-section h2 
+        {
+            color: gray;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .booking-form 
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .booking-form input, .booking-form select, .booking-form button 
+        {
+            padding: 15px;
+            font-size: 16px;
+            border: 1px solid white;
+            border-radius: 8px;
+        }
+        .booking-form input:focus, .booking-form select:focus 
+        {
+            outline-color: cyan;
+            border-color: cyan;
+        }
+        .booking-form button 
+        {
+            background-color: cyan;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .booking-form button:hover 
+        {
+            background-color: cyan;
+        }
+        footer 
+        {
+            text-align: center;
+            padding: 20px;
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="restweb.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Administration.html">Administration</a>
+    <a href="Contact Us.html">Contact Us</a>
+</nav>
+
+<header>
+    Book a Table
+</header>
+
+<div class="booking-section">
+    <h2>Reserve Your Table Now</h2>
+    <form class="booking-form">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Your Phone Number" required>
+        <select name="guests" required>
+            <option value="" disabled selected>Number of Guests</option>
+            <option value="1">1 Guest</option>
+            <option value="2">2 Guests</option>
+            <option value="3">3 Guests</option>
+            <option value="4">4 Guests</option>
+            <option value="5+">6+ Guests</option>
+        </select>
+        <input type="date" name="date" required>
+        <input type="time" name="time" required>
+        <button type="submit">Book Now</button>
+    </form>
+</div>
+
+</body>
+</html>

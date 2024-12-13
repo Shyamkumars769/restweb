@@ -1,0 +1,181 @@
+<html>
+<head>
+    <title>Administration</title>
+    <style>
+        body 
+        {
+            font-family: "Verdana", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: gray;
+        }
+        nav 
+        {
+            background-color: skyblue;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+        nav a 
+        {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover 
+        {
+            background-color: gray;
+        }
+        header 
+        {
+            background-color: greenyellow;
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+        }
+        header h1 
+        {
+            margin: 0;
+            font-size: 28px;
+        }
+        .admin-section 
+        {
+            padding: 20px;
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .admin-section h2 
+        {
+            text-align: center;
+            color: #283e51;
+            margin-bottom: 25px;
+        }
+        .admin-team 
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+        .team-member 
+        {
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .team-member:hover 
+        {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+        .team-member h3 
+        {
+            color: darkslategrey;
+            margin: 10px 0;
+        }
+        .team-member p 
+        {
+            color: gray;
+        }
+        .admin-login 
+        {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .admin-login input 
+        {
+            padding: 12px;
+            margin: 10px 5px;
+            border: 1px solid whitesmoke;
+            border-radius: 5px;
+            font-size: 14px;
+            width: 80%;
+            max-width: 300px;
+        }
+        .admin-login button 
+        {
+            padding: 10px 25px;
+            background-color: greenyellow;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .admin-login button:hover 
+        {
+            background-color: greenyellow;
+        }
+        @media (max-width: 600px) 
+        {
+            nav a 
+            {
+                font-size: 14px;
+                padding: 8px 15px;
+            }
+            .team-member 
+            {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="restweb.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Administration.html">Administration</a>
+    <a href="Contact Us.html">Contact Us</a>
+</nav>
+
+<header>
+    <h1>Administration</h1>
+</header>
+
+<div class="admin-section">
+    <h2>Team</h2>
+    <div class="admin-team">
+        <div class="team-member">
+            <h3>Michael Green</h3>
+            <p>General Manager</p>
+        </div>
+        <div class="team-member">
+            <h3>Sophia Brown</h3>
+            <p>Operations Lead</p>
+        </div>
+        <div class="team-member">
+            <h3>Lucas Martinez</h3>
+            <p>HR Specialist</p>
+        </div>
+        <div class="team-member">
+            <h3>Emma Taylor</h3>
+            <p>Finance Head</p>
+        </div>
+    </div>
+
+    <div class="admin-login">
+        <h2>Admin Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

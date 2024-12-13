@@ -1,0 +1,162 @@
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body 
+        {
+            font-family: "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, white, white);
+            color: gray;
+        }
+        nav 
+        {
+            background-color: gray;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+        }
+        nav a 
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        nav a:hover 
+        {
+            color: white;
+        }
+        header 
+        {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 
+        {
+            margin: 0;
+            font-size: 36px;
+        }
+        .contact-container 
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .contact-details 
+        {
+            flex: 1 1 40%;
+            margin: 20px;
+            color: gray;
+        }
+        .contact-details h2 
+        {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .contact-details p 
+        {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 8px 0;
+        }
+        .contact-form 
+        {
+            flex: 1 1 40%;
+            margin: 20px;
+        }
+        .contact-form h2 
+        {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .contact-form form 
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button 
+        {
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        .contact-form textarea 
+        {
+            resize: none;
+            height: 100px;
+        }
+        .contact-form button 
+        {
+            background-color: gray;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover 
+        {
+            background-color: gray;
+        }
+        footer 
+        {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p 
+        {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="restweb.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Administration.html">Administration</a>
+    <a href="Contact Us.html">Contact Us</a>
+</nav>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<div class="contact-container">
+    <div class="contact-details">
+        <h2>Get in Touch</h2>
+        <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+        <p><strong>Phone:</strong> +123 456 7890</p>
+        <p><strong>Email:</strong> contact@Olive.com</p>
+        <p>We’re here to help and answer any questions you might have. We look forward to hearing from you!</p>
+    </div>
+
+    <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Full Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opening Hours</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body 
+        {
+            font-family: 'Arial', sans-serif;
+            background-color: whitesmoke;
+            color: gray;
+            line-height: 1.6;
+        }
+        nav 
+        {
+            background-color: gray;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav a 
+        {
+            text-decoration: none;
+            color: whitesmoke;
+            margin: 0 25px;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover 
+        {
+            color: cyan;
+        }
+        header 
+        {
+            background: cyan;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .hours-section 
+        {
+            max-width: 500px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px 30px;
+        }
+        .hours-section h2 
+        {
+            font-size: 28px;
+            color: gray;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .hours-list 
+        {
+            list-style: none;
+            padding: 0;
+        }
+        .hours-list li 
+        {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid white;
+        }
+        .hours-list li:last-child 
+        {
+            border-bottom: none;
+        }
+        .hours-list span 
+        {
+            font-weight: bold;
+            color: gray;
+        }
+        footer 
+        {
+            text-align: center;
+            padding: 20px;
+            background-color: gray;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="restweb.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Administration.html">Administration</a>
+    <a href="Contact Us.html">Contact Us</a>
+</nav>
+
+<header>
+    Opening Hours
+</header>
+
+<div class="hours-section">
+    <h2>Our Operating Hours</h2>
+    <ul class="hours-list">
+        <li><span>Monday - Friday:</span> 2:00 PM - 10:00 PM</li>
+        <li><span>Saturday:</span> 2:00 PM - 11:00 PM</li>
+        <li><span>Sunday:</span> 2:00 PM - 9:00 PM</li>
+    </ul>
+</div>
+
+</body>
+</html>
