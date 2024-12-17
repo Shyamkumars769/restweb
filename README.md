@@ -175,6 +175,9 @@ Home
             <a href="Opening hours.html">Opening hours</a>
         </div>
     </section>
+    <footer>
+        <p>Designed and developed by Shyamkumar.S (24001160)</p>
+    </footer>
 </body>
 </html>
 
@@ -326,7 +329,9 @@ Menu
         </div>
     </div>
 </div>
-
+<footer>
+        <p>Designed and developed by Shyamkumar.S (24001160)</p>
+</footer>
 </body>
 </html>
 
@@ -449,7 +454,9 @@ Opening hours
         <li><span>Sunday:</span> 2:00 PM - 9:00 PM</li>
     </ul>
 </div>
-
+<footer>
+        <p>Designed and developed by Shyamkumar.S (24001160)</p>
+</footer>
 </body>
 </html>
 
@@ -592,7 +599,9 @@ BookTable
         <button type="submit">Book Now</button>
     </form>
 </div>
-
+<footer>
+        <p>Designed and developed by Shyamkumar.S (24001160)</p>
+</footer>
 </body>
 </html>
 
@@ -759,7 +768,9 @@ Contact
         </form>
     </div>
 </div>
-
+<footer>
+        <p>Designed and developed by Shyamkumar.S (24001160)</p>
+</footer>
 </body>
 </html>
 
@@ -945,7 +956,9 @@ Administration
         </form>
     </div>
 </div>
-
+<footer>
+        <p>Designed and developed by Shyamkumar.S (24001160)</p>
+</footer>
 </body>
 </html>
 
@@ -953,17 +966,17 @@ Administration
 
 ## OUTPUT:
 
-![alt text](home-1.png)
+![alt text](Adminstration.png)
 
-![alt text](Menu-1.png)
+![alt text](home-2.png) 
 
-![alt text](Administration-1.png)
+![alt text](menu-2.png) 
 
-![alt text](Contact-1.png)
+![alt text](Openinghours.png)
 
-![alt text](Booktable-1.png)
+![alt text](Booktable-2.png)
 
-![alt text](openhour-1.png)
+![alt text](<Contact us.png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
